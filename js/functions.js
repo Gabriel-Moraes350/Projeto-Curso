@@ -221,4 +221,11 @@ $(function(){
 		});
 	}
 
+	$('.detalhes').click(function(){
+		//Tem que ser mudada de acordo com o diretório para funcionar
+		var directory = '/projetos/Projeto-Curso/';
+		location.href = directory + "venda-detalhes";
+
+	})
+
 });

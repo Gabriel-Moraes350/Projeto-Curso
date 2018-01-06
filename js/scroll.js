@@ -1,6 +1,6 @@
 $(function(){
-
-	var directory = '/curso%20front%20end/projetos/projeto_5/';
+	//Tem que ser mudada de acordo com o diretório para funcionar
+	var directory = '/projetos/Projeto-Curso/';
 	$('.contatoAbrir a').click(function(){
 
 		location.href=directory+'home?contato';

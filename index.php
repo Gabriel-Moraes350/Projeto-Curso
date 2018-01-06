@@ -32,7 +32,9 @@
 		</div>
 	</header><!--header-->
 <?php
+
 	if(isset($_GET['url'])){
+
 		if(file_exists($_GET['url'].'.html')){
 			include($_GET['url'].'.html');
 		}else{
@@ -40,7 +42,7 @@
 		}
 	}else{
 		include('home.html');
-		echo "<script>location.href = '/curso%20front%20end/projetos/projeto_5/home'</script>;";
+		//echo "<script>location.href = '/C:/Users/Gabriel%20Moraes/Desktop/Projeto-Curso/'</script>;";
 	
 
 	}
